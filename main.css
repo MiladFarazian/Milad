@@ -11,7 +11,43 @@ body {
 .navbar-brand {
   color: #fff;
   cursor: pointer;
+  -webkit-animation:colorchange 4s;
 }
+@-webkit-keyframes colorchange {
+      0% {
+        color: #000066;
+      }    
+      10% {      
+        color: #000066;
+      }
+      20% {      
+        color: #ffcc66;
+      }      
+      30% {        
+        color: #ffcc66;
+      }      
+      40% {        
+        color: #ffff66;
+      }      
+      50% {        
+        color: #ffff66;
+      }      
+      60% {        
+        color: #ffffff;
+      }      
+      70% {       
+        color: #ffffff;
+      }
+      80% {     
+        color: #ffffff;
+      }     
+      90% {     
+        color: #ffffff;
+      }      
+      100% {        
+        color: #ffffff;
+      }
+    }
 .nav-link {
   margin-right: 1em !important;
 }
@@ -92,4 +128,51 @@ body {
 .features .btn:hover {
   background-color: #333;
   border: 1px solid #333;
+}
+.contact-body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url("https://images5.alphacoders.com/372/thumb-1920-372649.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family:sans-serif;
+}
+.contact-title{
+	margin-top:100px;
+	color:#fff;
+	text-transform:uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-title h1{
+	font-size:32px;
+	line-height:10px;
+}
+.contact-title h2{
+	font-size:16px;
+}
+form{
+	margin-top:50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width:600px;
+	background:transparent;
+	border:none;
+	outline:none;
+	border-bottom:1px solid gray;
+	margin-bottom:16px;
+}
+input{
+	height:45px;
+}
+form .submit{
+	background: #ff5722;
+	border-color:transparent;
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
 }
