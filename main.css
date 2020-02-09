@@ -106,8 +106,13 @@ body {
   color: #333;
   font-size: 1.3rem;
   font-weight: 700;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.feature-title2 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 3px;
 }
 .features img {
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -174,3 +179,57 @@ form .submit{
 	height:50px;
 	margin-top:20px;
 }
+.resume-body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:linear-gradient(to right,rgba(50,50,225,0.5),rgba(225,175,50,0.5)), url(images/ocean.jpg);
+	font-family: sans-serif;
+}
+.fa {
+	padding: 20px;
+	font-size: 10px;
+	width: 55px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 7px;
+	border-radius: 75%;
+}
+.fa:hover {
+	opacity: 0.7;
+}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+.fa-github {
+	background: #6130ff;
+	color: white;
+}
+.media-title{
+	margin-top: 20px;
+	font-size:30px;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+.media-footer{
+	height: 150px;
+	background: linear-gradient(rgba(0,0,0,1),rgba(50,50,50,1));
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	width: 100%;
+  }
