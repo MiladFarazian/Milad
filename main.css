@@ -11,6 +11,7 @@ body {
 .navbar-brand {
   color: #fff;
   cursor: pointer;
+  margin-right: 2px;
   -webkit-animation:colorchange 4s;
 }
 @-webkit-keyframes colorchange {
@@ -63,6 +64,12 @@ body {
   background-position: center;
   position: relative;
 }
+.profile_image {
+	position: center;
+	height: 40%;
+	width: 40%;
+	border-radius: 75%;
+}
 .overlay {
   position: absolute;
   min-height: 100%;
@@ -79,7 +86,21 @@ body {
   text-align: center;
 }
 .description h1 {
-  color: #04a3f0;
+	font-size: 72px;
+	font-family: Montserrat;
+	font-weight: 800;
+	background: -webkit-linear-gradient(rgba(220, 220, 255,1),rgba(2, 117, 173,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;;
+}
+
+.description h2 {
+	font-size: 36px;
+	font-family: Montserrat;
+	font-weight: 800;
+	background: -webkit-linear-gradient(rgba(220, 220, 255,1),rgba(2, 117, 173,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;;
 }
 .description p {
   color: #fff;
@@ -87,10 +108,11 @@ body {
   line-height: 1.5;
 }
 .description button {
-  border:1px solid #04a3f0;
-  background:#04a3f0;
-  border-radius: 0;
-  color:#fff;
+	margin-top: 40px;
+	border:1px solid #04a3f0;
+	background:linear-gradient(rgba(4, 163, 240,1),rgba(2, 117, 173,1));
+	border-radius: 0;
+	color:#fff;
 }
 .description button:hover {
   border:1px solid #fff;
@@ -138,7 +160,7 @@ body {
 	margin:0;
 	padding:0;
 	text-align:center;
-	background:linear-gradient(to right,rgba(50,50,225,0.5),rgba(225,175,50,0.5)), url(images/ocean.jpg);
+	background:linear-gradient(to right,rgba(50,50,225,0.5),rgba(225,175,50,0.5));
 	font-family: sans-serif;
 }
 .contact-title{
@@ -220,10 +242,12 @@ form .submit{
 	color: white;
 }
 .media-title{
-	margin-top: 20px;
-	font-size:30px;
-	color: white;
-	font-weight: 700;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: 800;
+	background: -webkit-linear-gradient(rgba(220, 220, 220,1),rgba(50, 50, 50,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-align: center;
 }
 .media-footer{
@@ -235,3 +259,8 @@ form .submit{
 	width: 100%;
 	margin-bottom: 500px;
   }
+  
+.logo {
+	height: 2.5%;
+	width: 2.5%;
+}
