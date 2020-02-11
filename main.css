@@ -5,7 +5,7 @@ body {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:#04a3f0;
+  background:linear-gradient(rgba(4, 163, 240,1),rgba(2, 117, 173,1));
 }
 .nav-link,
 .navbar-brand {
@@ -58,7 +58,7 @@ body {
   justify-content: flex-end;
 }
 .header {
-  background-image: url('images/inLove.png');
+  background: linear-gradient(rgba(200,10,245,1),rgba(245,10,10,1));
   background-size: cover;
   background-position: center;
   position: relative;
@@ -155,6 +155,7 @@ body {
 	font-size:16px;
 }
 form{
+	color: #fff;
 	margin-top:50px;
 	transition: all 4s ease-in-out;
 }
@@ -183,7 +184,7 @@ form .submit{
 	margin:0;
 	padding:0;
 	text-align:center;
-	background:linear-gradient(to right,rgba(50,50,225,0.5),rgba(225,175,50,0.5)), url(images/ocean.jpg);
+	background:linear-gradient(to bottom right,rgba(50,50,225,0.75),rgba(225,175,50,0.75));
 	font-family: sans-serif;
 }
 .fa {
@@ -232,4 +233,5 @@ form .submit{
 	background-position: center;
 	position: relative;
 	width: 100%;
+	margin-bottom: 500px;
   }
