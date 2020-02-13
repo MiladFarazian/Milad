@@ -1,68 +1,68 @@
 body {
-  padding: 0;
-  margin: 0;
-  background: #f2f6e9;
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:linear-gradient(rgba(4, 163, 240,1),rgba(2, 117, 173,1));
+	background:linear-gradient(rgba(4, 163, 240,1),rgba(2, 117, 173,1));
 }
 .nav-link,
 .navbar-brand {
-  color: #fff;
-  cursor: pointer;
-  margin-right: 2px;
-  -webkit-animation:colorchange 4s;
+	color: #fff;
+	cursor: pointer;
+	margin-right: 2px;
+	-webkit-animation:colorchange 4s;
 }
 @-webkit-keyframes colorchange {
-      0% {
-        color: #000066;
-      }    
-      10% {      
-        color: #000066;
-      }
-      20% {      
-        color: #ffcc66;
-      }      
-      30% {        
-        color: #ffcc66;
-      }      
-      40% {        
-        color: #ffff66;
-      }      
-      50% {        
-        color: #ffff66;
-      }      
-      60% {        
-        color: #ffffff;
-      }      
-      70% {       
-        color: #ffffff;
-      }
-      80% {     
-        color: #ffffff;
-      }     
-      90% {     
-        color: #ffffff;
-      }      
-      100% {        
-        color: #ffffff;
-      }
-    }
+	0% {
+	color: #000066;
+	}    
+	10% {      
+	color: #000066;
+	}
+	20% {      
+	color: #ffcc66;
+	}      
+	30% {        
+	color: #ffcc66;
+	}      
+	40% {        
+	color: #ffff66;
+	}      
+	50% {        
+	color: #ffff66;
+	}      
+	60% {        
+	color: #ffffff;
+	}      
+	70% {       
+	color: #ffffff;
+	}
+	80% {     
+	color: #ffffff;
+	}     
+	90% {     
+	color: #ffffff;
+	}      
+	100% {        
+	color: #ffffff;
+	}
+}  
 .nav-link {
-  margin-right: 1em !important;
+	margin-right: 1em !important;
 }
 .nav-link:hover {
-  color: #000;
+	color: #000;
 }
 .navbar-collapse {
-  justify-content: flex-end;
+	justify-content: flex-end;
 }
 .header {
-  background: linear-gradient(rgba(200,10,245,1),rgba(245,10,10,1));
-  background-size: cover;
-  background-position: center;
-  position: relative;
+	background: linear-gradient(rgba(200,10,245,1),rgba(245,10,10,1));
+	background-size: cover;
+	background-position: center;
+	position: relative;
 }
 .profile_image {
 	position: center;
@@ -71,19 +71,19 @@ body {
 	border-radius: 75%;
 }
 .overlay {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
 }
 .description {
-  left: 50%;
-  position: absolute;
-  top: 45%;
-  transform: translate(-50%, -55%);
-  text-align: center;
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
 }
 .description h1 {
 	font-size: 72px;
@@ -103,9 +103,9 @@ body {
 	-webkit-text-fill-color: transparent;;
 }
 .description p {
-  color: #fff;
-  font-size: 1.3rem;
-  line-height: 1.5;
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
 }
 .description button {
 	margin-top: 40px;
@@ -115,46 +115,46 @@ body {
 	color:#fff;
 }
 .description button:hover {
-  border:1px solid #fff;
-  background:#fff;
-  color:#000;
+	border:1px solid #fff;
+	background:#fff;
+	color:#000;
 }
 .features {
-  margin: 4em auto;
-  padding: 1em;
-  position: relative;
+	margin: 4em auto;
+	padding: 1em;
+	position: relative;
 }
 .feature-title {
-  color: #333;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 8px;
+	color: #333;
+	font-size: 1.3rem;
+	font-weight: 700;
+	margin-bottom: 8px;
 }
 .feature-title2 {
-  color: #333;
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 3px;
+	color: #333;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 3px;
 }
 .features img {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  margin-bottom: 16px;
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
 }
 .features .form-control,
 .features input {
     border-radius: 0;
 }
 .features .btn {
-  background-color: #589b37;
-  border: 1px solid #589b37;
-  color: #fff;
-  margin-top: 20px;
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
 }
 .features .btn:hover {
-  background-color: #333;
-  border: 1px solid #333;
+	background-color: #333;
+	border: 1px solid #333;
 }
 .contact-body{
 	margin:0;
@@ -259,7 +259,6 @@ form .submit{
 	width: 100%;
 	margin-bottom: 500px;
   }
-  
 .logo {
 	height: 2.5%;
 	width: 2.5%;
