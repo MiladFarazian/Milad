@@ -263,6 +263,8 @@ form .submit{
 	height: 2.5%;
 	width: 2.5%;
 }
-.about h1{
+.about{
 	text-align: center;
+	font-weight: bold;
+	color: blue;
 }
